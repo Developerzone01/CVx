@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#00AFEF">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_hobbies_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_input_margin_bottom">
+
+        <EditText
+            android:id="@+id/edit_hobbies1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Favourite Hobbies"
+            android:inputType="textCapWords"
+            android:textColorLink="#ffffff" />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

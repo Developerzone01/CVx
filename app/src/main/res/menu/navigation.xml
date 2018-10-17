@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+
+    <item
+        android:id="@+id/action_personal_info"
+        android:checked="true"
+        android:icon="@drawable/ic_personalinfo"
+        android:title="@string/action_personal_info" />
+    <item
+        android:id="@+id/action_education"
+        android:checked="false"
+        android:icon="@drawable/ic_education"
+        android:title="Education" />
+    <item
+        android:id="@+id/action_experience"
+        android:checked="false"
+        android:icon="@drawable/ic_workexperience"
+        android:title="@string/action_experience" />
+    <item
+        android:id="@+id/action_essentials"
+        android:checked="false"
+        android:icon="@drawable/ic_skills"
+        android:title="Skills" />
+
+    <item
+        android:id="@+id/action_projects"
+        android:checked="false"
+        android:icon="@drawable/ic_awards"
+        android:title="Achievements" />
+
+    <item
+        android:id="@+id/action_hobbies"
+        android:checked="false"
+        android:icon="@drawable/ic_hobbies"
+        android:title="Hobbies" />
+    <item
+        android:id="@+id/action_references"
+        android:checked="false"
+        android:icon="@drawable/ic_reference"
+        android:title="References" />
+    <item
+        android:id="@+id/action_Preview_Template"
+        android:checked="false"
+        android:icon="@drawable/ic_previewtemplate"
+        android:title="Preview Template" />
+    </group>
+
+</menu>
